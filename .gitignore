@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Database & Logs
+*.db
+*.sqlite3
+data/*.db
+logs/*.log
+
+# Environment & Credentials
+.env
+.env.local
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Playwright & Browsers
+.playwright/
+playwright/.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+# PowerShell generated files
+Microsoft/

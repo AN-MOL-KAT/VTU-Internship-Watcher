@@ -1,0 +1,58 @@
+# VTU Internship Watcher Main Configuration
+
+monitoring:
+  interval_minutes: 30
+  max_retries: 3
+  timeout_seconds: 20
+  database_path: "data/internships.db"
+  log_file: "logs/watcher.log"
+
+filters:
+  # Allowed internship types
+  internship_types:
+    - Stipend
+    - Free
+    - Paid
+
+  # Allowed internship modes
+  internship_modes:
+    - Remote
+    - Hybrid
+    - Onsite
+
+  # Hard ceiling for paid internships (INR). Above this is automatically IGNORED
+  max_paid_fee: 2000
+
+  # Minimum technical match score percentage (0-100) required for non-ignored alerts
+  minimum_match_score: 50
+
+preferences:
+  # Priority tier base points
+  stipend_priority_bonus: 30
+  free_priority_bonus: 15
+  paid_priority_penalty: -20
+
+  # Mode adjustments
+  remote_bonus: 20
+  hybrid_bonus: 10
+  onsite_bonus: 0
+
+  # Priority level thresholds (composite score: technical match + preference adjustments)
+  thresholds:
+    very_high: 85
+    high: 70
+    medium: 50
+    low: 30
+
+notifications:
+  telegram:
+    enabled: true
+    send_for_priority_levels:
+      - VERY_HIGH
+      - HIGH
+      - MEDIUM
+  email:
+    enabled: false
+    send_daily_summary: true
+    send_immediate_for_priority:
+      - VERY_HIGH

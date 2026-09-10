@@ -1,0 +1,158 @@
+# Technical Skills Profile and Keyword Weighting
+
+skills:
+  machine_learning:
+    weight: 10
+    keywords:
+      - machine learning
+      - ml
+      - deep learning
+      - neural network
+      - neural networks
+      - supervised learning
+      - unsupervised learning
+      - reinforcement learning
+      - pytorch
+      - tensorflow
+      - keras
+      - scikit-learn
+      - sklearn
+      - model training
+      - llm
+      - fine-tuning
+
+  artificial_intelligence:
+    weight: 10
+    keywords:
+      - artificial intelligence
+      - ai
+      - generative ai
+      - gen ai
+      - genai
+      - prompt engineering
+      - rag
+      - langchain
+      - llama
+
+  python:
+    weight: 10
+    keywords:
+      - python
+      - python3
+      - pandas
+      - numpy
+      - scipy
+      - matplotlib
+      - seaborn
+      - fastapi
+      - flask
+      - django
+
+  computer_vision:
+    weight: 9
+    keywords:
+      - computer vision
+      - cv
+      - opencv
+      - yolo
+      - yolov8
+      - yolov5
+      - object detection
+      - image processing
+      - image segmentation
+      - mediapipe
+      - ocr
+
+  nlp:
+    weight: 8
+    keywords:
+      - nlp
+      - natural language processing
+      - text classification
+      - transformers
+      - huggingface
+      - spacy
+      - nltk
+      - bert
+
+  data_science:
+    weight: 8
+    keywords:
+      - data science
+      - data scientist
+      - predictive modeling
+      - feature engineering
+      - exploratory data analysis
+      - eda
+
+  full_stack:
+    weight: 8
+    keywords:
+      - full stack
+      - fullstack
+      - web development
+      - backend
+      - frontend
+      - rest api
+      - api development
+
+  frontend:
+    weight: 7
+    keywords:
+      - react
+      - react.js
+      - reactjs
+      - javascript
+      - js
+      - typescript
+      - ts
+      - next.js
+      - nextjs
+      - html
+      - css
+      - tailwind
+
+  data_analytics:
+    weight: 7
+    keywords:
+      - data analytics
+      - data analyst
+      - power bi
+      - powerbi
+      - tableau
+      - excel
+      - dashboard
+      - business intelligence
+
+  software_engineering:
+    weight: 8
+    keywords:
+      - software development
+      - software engineering
+      - software engineer
+      - git
+      - github
+      - docker
+      - linux
+      - microservices
+
+  sql:
+    weight: 6
+    keywords:
+      - sql
+      - mysql
+      - postgresql
+      - postgres
+      - sqlite
+      - database design
+      - rdbms
+      - mongodb
+      - nosql
+
+  java:
+    weight: 6
+    keywords:
+      - java
+      - spring
+      - spring boot
+      - oop
