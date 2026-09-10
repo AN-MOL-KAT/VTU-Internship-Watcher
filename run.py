@@ -62,7 +62,7 @@ def handle_list(monitor: InternshipMonitor):
 def main():
     parser = argparse.ArgumentParser(description="VTU Internship Watcher")
     parser.add_argument(
-        "--once", action="store_true", default=True, help="Run a single check and exit (default)"
+        "--once", action="store_true", help="Run a single check and exit (default)"
     )
     parser.add_argument(
         "--loop", action="store_true", help="Run in continuous monitoring loop"
